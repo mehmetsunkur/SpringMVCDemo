@@ -11,7 +11,7 @@ node ("master") {
         
         echo 'Checkout source code from GitHub ...'
         retry(5){
-            git branch: 'developer', credentialsId: 'GitHub', url: 'git@github.com:AnghelLeonard/SpringMVCDemo.git'
+            git branch: 'developer', credentialsId: 'GitHub', url: 'git@github.com:mehmetsunkur/SpringMVCDemo.git'
         }
         
         echo 'Change the project version ...'
